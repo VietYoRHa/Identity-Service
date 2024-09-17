@@ -1,2 +1,2 @@
-# Identity-Service
-Spring Boot learning
+# Identity Service
+Project while learning Spring Boot from YouTube channel [Devteria](https://www.youtube.com/@DevteriaChannel)
