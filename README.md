@@ -1,2 +1,33 @@
 # Identity Service
-Project while learning Spring Boot from YouTube channel [Devteria](https://www.youtube.com/@DevteriaChannel)
+- Project while learning Spring Boot from YouTube channel [Devteria](https://www.youtube.com/@DevteriaChannel)
+- **Playlist**: [Khóa học lập trình Java Spring boot 3 miễn phí cho người mới (2024)](https://www.youtube.com/playlist?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC)
+## Content
+- [#01](https://youtu.be/MiHVcukru3U?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Hello world
+- [#02](https://youtu.be/O-3tJAVlwQE?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Kết nối Database với Spring JPA và tạo API CRUD
+- [#03](https://youtu.be/dN4Ifu-4PAs?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Quản lý Exception tập trung và Validation
+- [#04](https://youtu.be/a9wMrj-JHV4?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Quản lý Exception nâng cao và cách chuẩn hóa API Response đúng cách
+- [#05](https://youtu.be/3AIjB50cRzU?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Sử dụng Lombok và Mapstruct, coding đơn giản vui vẻ hơn
+- [#06](https://youtu.be/i519oXXPtgQ?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Mã hóa mật khẩu an toàn và matching nhanh chóng với Bcrypt
+- [#07](https://youtu.be/1XC5WPQkXek?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) JWT là gì, cách tạo, ký và xác thực một JWT
+- [#08](https://youtu.be/lp0XVdrOibk?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Kiến trúc Spring Security, cấu hình Authentication với JWT
+- [#09](https://youtu.be/eu3vJZ9W0XQ?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Phân quyền (Authorization) bằng JWT trong Spring Security
+- [#10](https://youtu.be/1V7U1XQ-eSw?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Phân quyền (Authorization) với PreAuthorize và PostAuthorize
+- [#11](https://youtu.be/RkUPQZ_BgJ4?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Quản lý Exception và trả về Response với HttpCode tùy biến
+- [#12](https://youtu.be/GZpO045VNe8?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Phân quyền theo Role, Permission, quan hệ ManyToMany trong JPA
+- [#13](https://youtu.be/vtnUYg5xYu4?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Phân quyền với Role, permission bằng JWT sử dụng @PreAuthorize
+- [#14](https://youtu.be/41KffsyxzIg?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Validation bằng custom annotation
+- [#15](https://youtu.be/n_4EzfSH6z0?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Validation nâng cao, trích xuất thông tin từ annotation
+- [#16](https://youtu.be/ZiHsIJtUtF0?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Logout với JWT token một cách an toàn và đảm bảo hiệu năng
+- [#17](https://youtu.be/TYdcc_N4wj4?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Refresh JWT token
+- [#18](https://youtu.be/iiSNzltukpk?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Refresh JWT token (phần 2) align với Oauth2
+- [#19](https://youtu.be/8Bs9_PiOQ9o?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Làm quen với UnitTest
+- [#20](https://youtu.be/6axMMPjSf1c?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Isolation trong UnitTest, best practice trong Unit test
+- [#21](https://youtu.be/2PavtAVGYhY?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Code coverage với JaCoCo và cách tăng code coverage
+- [#22](https://youtu.be/ocrNYYUsb1M?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Chuẩn hóa format code với spotless
+- [#23](https://youtu.be/2q3BNSenmsQ?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Code ngày càng chuyên nghiệp hơn với SonarLint và SonarQube
+- [#24](https://youtu.be/p0qAzNmBxeA?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Cấu hình CORS và integrate với Front End bằng React JS
+- [#25](https://youtu.be/VPDaC2JtmeM?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Unique field trong JPA và bài toán concurrent request
+- [#26](https://youtu.be/v2aX-gJACRw?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Tìm hiểu về Profile và biến môi trường
+- [#27](https://youtu.be/1QtHHtKF4sM?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Đóng gói và triển khai ứng dụng
+- [#28](https://youtu.be/EkChqwXzbsU?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Build Docker image
+- [#29](https://youtu.be/j2U6Ea-sZCI?list=PL2xsxmVse9IaxzE8Mght4CFltGOqcG6FC) Publish Docker image lên Docker Hub
