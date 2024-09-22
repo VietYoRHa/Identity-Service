@@ -1,6 +1,6 @@
 package com.vietdoan.identity_service.controller;
 
-import com.vietdoan.identity_service.dto.request.ApiResponse;
+import com.vietdoan.identity_service.dto.response.ApiResponse;
 import com.vietdoan.identity_service.dto.request.UserCreationRequest;
 import com.vietdoan.identity_service.dto.request.UserUpdateRequest;
 import com.vietdoan.identity_service.dto.response.UserResponse;
@@ -34,8 +34,10 @@ public class UserController {
     }
 
     @GetMapping("/{userId}")
-    UserResponse getUser(@PathVariable("userId") String userId) {
-        return userService.getUser(userId);
+    ApiResponse<UserResponse> getUser(@PathVariable("userId") String userId) {
+        return ApiResponse.<UserResponse>builder()
+                .result(userService.getUser(userId))
+                .build();
     }
 
     @PutMapping("/{userId}")
